@@ -1,6 +1,9 @@
-# My Starter Project
+# Vaadin 10 Geolocation component
 
 Vaadin 10 Java integration of https://github.com/elmot/vaadin-geo-location
+The component supports html5 Geolocation API
+
+![html5](https://www.w3.org/html/logo/badge/html5-badge-h-device-semantics.png "HTML5 Powered with Device Access, and Semantics")
 
 ## Development instructions
 
