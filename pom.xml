@@ -6,7 +6,7 @@
     <groupId>org.vaadin.elmot</groupId>
     <artifactId>vaadin-geo-location-flow</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Vaadin 10 geo Location Addon</name>
+    <name>Geo Location Addon</name>
 
     <properties>
         <vaadin.version>10.0.0.beta10</vaadin.version>
