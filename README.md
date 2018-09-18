@@ -1,4 +1,6 @@
 # Vaadin 10 Geolocation component
+[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/geo-location-addon)
+[![Stars on Vaadin Directory](https://img.shields.io/vaadin-directory/star/geo-location-addon.svg)](https://vaadin.com/directory/component/geo-location-addon)
 
 Vaadin 10 Java integration of https://github.com/elmot/vaadin-geo-location
 The component supports html5 Geolocation API
