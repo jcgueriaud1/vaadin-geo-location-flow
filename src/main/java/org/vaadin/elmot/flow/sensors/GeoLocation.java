@@ -9,8 +9,7 @@ import java.util.function.BiConsumer;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.HasValue;
 import com.vaadin.flow.component.Tag;
-import com.vaadin.flow.component.dependency.HtmlImport;
-import com.vaadin.flow.dom.DomEvent;
+import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.dom.DomEventListener;
 import com.vaadin.flow.dom.DomListenerRegistration;
 import com.vaadin.flow.shared.Registration;
@@ -19,7 +18,7 @@ import elemental.json.JsonObject;
 import elemental.json.JsonValue;
 
 @Tag("vaadin-geo-location")
-@HtmlImport("bower_components/vaadin-geo-location/vaadin-geo-location.html")
+@JsModule("./vaadin-geo-location.js")
 public class GeoLocation extends Component implements HasValue<PositionValueChangeEvent, Position> {
 
     public static final String EVENT_DETAIL_CODE = "event.detail.code";
@@ -65,7 +64,8 @@ public class GeoLocation extends Component implements HasValue<PositionValueChan
 
         DomListenerRegistration errorRegistration = getElement().addEventListener("error", event -> {
             JsonObject eventData = event.getEventData();
-            PositionErrorEvent positionErrorEvent = new PositionErrorEvent((int) eventData.getNumber(EVENT_DETAIL_CODE), eventData.getString(EVENT_DETAIL_MESSAGE));
+            PositionErrorEvent positionErrorEvent = new PositionErrorEvent(
+                    (int) eventData.getNumber(EVENT_DETAIL_CODE), eventData.getString(EVENT_DETAIL_MESSAGE));
             errorListeners.forEach(listener -> listener.onError(positionErrorEvent));
         });
         errorRegistration.addEventData(EVENT_DETAIL_CODE);
