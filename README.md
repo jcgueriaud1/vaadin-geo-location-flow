@@ -12,7 +12,8 @@ The component supports html5 Geolocation API
 
 Starting the test/demo server:
 ```
-mvn jetty:run
+mvn clean package
+mvn -Pdemo jetty:run
 ```
 
 This deploys demo at http://localhost:8080
