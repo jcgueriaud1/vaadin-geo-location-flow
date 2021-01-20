@@ -19,3 +19,12 @@ mvn -Pdemo jetty:run
 This deploys demo at http://localhost:8080
 
 
+## Collaborators
+
+<!-- readme: collaborators -start -->
+<!-- readme: collaborators -end -->
+
+## Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
