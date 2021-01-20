@@ -21,10 +21,30 @@ This deploys demo at http://localhost:8080
 
 ## Collaborators
 
-<!-- readme: collaborators -start -->
+<!-- readme: collaborators -start --> 
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/jcgueriaud1">
+            <img src="https://avatars1.githubusercontent.com/u/51313578?v=4" width="100;" alt="jcgueriaud1"/>
+            <br />
+            <sub><b>Jean-Christophe Gueriaud</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: collaborators -end -->
 
 ## Contributors
 
-<!-- readme: contributors -start -->
+<!-- readme: contributors -start --> 
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/jcgueriaud1">
+            <img src="https://avatars1.githubusercontent.com/u/51313578?v=4" width="100;" alt="jcgueriaud1"/>
+            <br />
+            <sub><b>Jean-Christophe Gueriaud</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
