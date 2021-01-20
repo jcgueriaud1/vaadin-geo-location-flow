@@ -26,7 +26,7 @@ This deploys demo at http://localhost:8080
 <tr>
     <td align="center">
         <a href="https://github.com/jcgueriaud1">
-            <img src="https://avatars1.githubusercontent.com/u/51313578?v=4" width="100;" alt="jcgueriaud1"/>
+            <img src="https://avatars1.githubusercontent.com/u/51313578?v=4" width="80;" alt="jcgueriaud1"/>
             <br />
             <sub><b>Jean-Christophe Gueriaud</b></sub>
         </a>
@@ -41,7 +41,7 @@ This deploys demo at http://localhost:8080
 <tr>
     <td align="center">
         <a href="https://github.com/jcgueriaud1">
-            <img src="https://avatars1.githubusercontent.com/u/51313578?v=4" width="100;" alt="jcgueriaud1"/>
+            <img src="https://avatars1.githubusercontent.com/u/51313578?v=4" width="80;" alt="jcgueriaud1"/>
             <br />
             <sub><b>Jean-Christophe Gueriaud</b></sub>
         </a>
